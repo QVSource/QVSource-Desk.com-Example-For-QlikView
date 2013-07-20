@@ -60,6 +60,12 @@ End sub
 
 Sub CreatePagingTable
 
+	//
+	// NOTE: In reality the per_page parameter would be set to 
+	// the maximum value (this appears to be 100 from the Desk.com API docs 
+	// We used 10 here during development as our test login only had access to 
+	// approx 35 cases.
+	//
 	let vNextPage = 'api/v2/cases?per_page=10';
 	let vLastPage = '';
 	
