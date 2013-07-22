@@ -18,6 +18,7 @@ SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
 
 let size = filesize('credentials.txt');
 
+//Replace the [TOKENS] with your details. The credentials.txt will not exist in your download as it's only used by ICB while developing the script
 if isnull(size) then
 	let vUserName = '[YOUR_USERNAME]';
 	let vPasswordEncrypted = '[YOUR_ENCRYPTED_PASSWORD]';
