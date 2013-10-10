@@ -868,6 +868,7 @@
     <SheetPrintDrawBackGround>false</SheetPrintDrawBackGround>
     <StrDevModeExtra></StrDevModeExtra>
   </PrintSettings>
+  <ActivePropertyPage>0</ActivePropertyPage>
   <DoctorSpecial>0</DoctorSpecial>
   <DoctorMapField></DoctorMapField>
   <Detached>false</Detached>

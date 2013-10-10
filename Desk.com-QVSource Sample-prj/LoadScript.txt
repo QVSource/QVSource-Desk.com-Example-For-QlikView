@@ -154,3 +154,7 @@ for i=0 to $(noRows)-1
 	FROM [http://localhost:5555/QVSource/WebConnector/?table=JsonToXmlRaw&appID=&verb=get&UserName=$(vUserName)&PasswordEncrypted=$(vPasswordEncrypted)&url=$(pageURL)] (XmlSimple, Table is [DATA/_embedded/entries]);
 
 NEXT
+///$tab Clean Up
+let vUserName = '';
+let vPasswordEncrypted = '';
+let vDeskDomain = '';
