@@ -8,6 +8,10 @@ If you are a QlikView + QVSource user you can simply click the ["Download ZIP"] 
 
 The content below is copied from the change log in the first tab of the load script.
 
+1.0.1 - 04/12/13
+----------------
+* Added badge.
+
 1.0.0 - 19/07/13
 ----------------
 * Initial Release
